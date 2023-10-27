@@ -1,36 +1,34 @@
-# Light/Dark Mode toggle 
-Takes system pref by default, but can override with toggle.
+# Functional Requirements and Notes
+
+## Light/Dark Mode toggle
+-- takes system pref by default, but can override with toggle
 
 ## What HTML markup (accessible) 
-
 https://scottaohara.github.io/a11y_styled_form_controls/src/radio-button--switch/
 
-### Use fieldset, legend, radio inputs
+Use fieldset, legend, radio inputs
 
 ## Switching between light/dark modes via JS and Prefers-color-scheme media query 
-
 https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
 
-https://piccalil.li/tutorial/create-a-user-controlled-dark-or-light-mode/ 
+https://piccalil.li/tutorial/create-a-user-controlled-dark-or-light-mode/
 
-## Three option toggle: light/dark/system pref 
-
+## Three option toggle: light/dark/system pref
 https://codepen.io/renddrew/pen/bRomab?editors=1100
 
 ## CSS Variables (custom properties) 
-
 https://css-tricks.com/updating-a-css-variable-with-javascript/
 
-## Accessibility
+# Accessibility
 
-Use correct heading tags
-Screenreader-only text for card titles/username 
-
+- Use correct heading tags
+- Screenreader-only text for card titles/username 
 https://www.accessibility-developer-guide.com/examples/hiding-elements/visually/
 
-NVDA hotkeys: https://webaim.org/resources/shortcuts/nvda
+## NVDA hotkeys:
+https://webaim.org/resources/shortcuts/nvda
 
---
+-------------
 
-# Semantic HTML and accessibility
- https://www.youtube.com/watch?v=qSNUi7pRmWg Inclusive cards -- https://inclusive-components.design/cards/
+Semantic HTML and accessibility -- https://www.youtube.com/watch?v=qSNUi7pRmWg
+Inclusive cards -- https://inclusive-components.design/cards/
